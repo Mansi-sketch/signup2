@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: block;
+    top: 20px;
+    width: 600px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: -50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  input::placeholder {
+    color: white;
+  }
+  
+  .radio-group,
+  .checkbox-group {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    width: 200px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: gray;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+  }
+  
